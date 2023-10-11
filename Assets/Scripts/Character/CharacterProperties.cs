@@ -15,17 +15,6 @@ namespace Character
 
 
 
-        [Tooltip("Character Max Health amount")]
-        [SerializeField] protected ushort _maxHealth = 100;
-
-
-
-
-        
-
-
-
-
 #endregion ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| XXXX ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
 
 
@@ -41,7 +30,13 @@ namespace Character
 
         protected bool _isDead = false;
 
-#endregion
+#endregion ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| XXXX ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
+
+
+
+
+
+
 
 
 #region ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| PROPERTIES ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
@@ -52,11 +47,19 @@ namespace Character
             set { this._isDead = value; }
         }
 
-#endregion
+#endregion ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| XXXX ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
+
+
+
+
+
+
+
+
 
 
     
-    
+#region ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| ABSTRACT FUNCTIONS ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
     
         protected abstract void CharacterMove();
 
@@ -66,5 +69,6 @@ namespace Character
 
 
         protected abstract void Damage();
+#endregion ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~|| XXXX ||~~~~~~~~~~~~~|| X ||~~~~~~~~~~~~~||
     }
 }
