@@ -6,7 +6,7 @@ Hi everyone. I'm Atakan and welcome to my 2D project.
 <img src="https://media2.giphy.com/media/GJAEEBOhDfUCLq2nCT/giphy.gif" width="25" height="25">
 
 ***
-
+### [Warrior Ninja To Play](https://mesut-atakan.itch.io/warrior-ninja)
 # Project Information
 _In this section I will talk about the classes i wrote in this project._
 
